@@ -140,6 +140,11 @@
             <version>11.0.0</version>
             <classifier>jakarta</classifier>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.22</version>
+        </dependency>
     </dependencies>
 
 </project>
