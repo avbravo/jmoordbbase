@@ -13,7 +13,7 @@ import org.bson.Document;
  */
 public class DocumentUtils {
 
-    // <editor-fold defaultstate="collapsed" desc="methods()">
+    // <editor-fold defaultstate="collapsed" desc="<T> Document toDocument(T obj)>
 
     public static <T> Document toDocument(T obj) throws Exception {
         Document doc = new Document();
@@ -31,7 +31,7 @@ public class DocumentUtils {
     }
         // </editor-fold>
     
-    // <editor-fold defaultstate="collapsed" desc="methods()">
+    // <editor-fold defaultstate="collapsed" desc="<T> T toObject(Document doc, Class<T> clazz)">
     public static <T> T toObject(Document doc, Class<T> clazz) throws Exception {
         //Instantiating generic objects
         T obj = clazz.newInstance();
